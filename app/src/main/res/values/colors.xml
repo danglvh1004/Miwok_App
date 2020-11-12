@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#FF6200EE</color>
+
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <color name="category_numbers">#FD8E09</color>
+
+    <color name="category_family">#379237</color>
+    <color name="category_colors">#8800A0</color>
+    <color name="black">#FF000000</color>
+    <color name="category_phrases">#16AFCA</color>
+</resources>
