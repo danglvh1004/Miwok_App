@@ -45,8 +45,8 @@ public class NumbersActivity extends AppCompatActivity {
 //            wordView.setText(words.get(index));
 //            rootView.addView(wordView);
 //        }
-//        ArrayAdapter<Word> itemsAdapter = new ArrayAdapter<Word>(this, android.R.layout.list_item, words); //android.R.layout.simple_list_item_1: là 1 dạng layout Android định nghĩa sẵn.
-//        GridView listView = findViewById(R.id.list);
-//        listView.setAdapter(itemsAdapter);
+        WordAdapter adapter = new WordAdapter(this, words);
+        GridView listView = findViewById(R.id.list);
+        listView.setAdapter(adapter);
     }
 }
