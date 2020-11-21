@@ -16,7 +16,6 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
-    <dimen name="list_item_height">88dp</dimen>
 
     <style name="Theme.Miwok.NoActionBar">
         <item name="windowActionBar">false</item>
