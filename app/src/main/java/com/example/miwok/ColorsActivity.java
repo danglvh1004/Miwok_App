@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -26,7 +27,7 @@ public class ColorsActivity extends AppCompatActivity {
         words.add(new Word("mustard yellow", "chiwiiṭә", R.drawable.color_mustard_yellow));
 
         WordAdapter adapter = new WordAdapter(this, words);
-        GridView listView = findViewById(R.id.list);
+        ListView listView = findViewById(R.id.list);
         listView.setAdapter(adapter);
     }
 }
